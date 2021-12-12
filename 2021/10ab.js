@@ -29,7 +29,7 @@ input.forEach(line => {
             break
         }
     }
-    // If the line makes it here and openStack is not empty, it means it's an incomplete line.
+
     // Incomplete lines - if openStack is not empty at this point, line is incomplete.
     if(openStack.length > 0) {
         let lineScore = 0
